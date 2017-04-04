@@ -1,0 +1,128 @@
+    <div class="container center  color_lilas_texto">
+      <h4>CAT&Aacute;LOGO</h4>
+      <!-- <h4 ng-show="loginview">REGISTRO</h4> -->
+    </div>
+
+	<!--<div class="row">
+		<div class="col s6" ng-repeat="raza in razas">
+			<a href="#/subcatalogo/{{raza.id}}/nombre_raza/{{raza.categoria}}">
+				<img class="responsive-img" src="http://dummyimage.com/327x207.jpg/5fa2dd/ffffff" alt="">
+			</a>
+		</div>
+	</div>-->
+  <style>
+    form img{
+      margin: 12px;
+    }
+
+  </style>
+  <!--
+	<div  ng-show="loginview" >
+    <form name="userForm" ng-submit="submitForm()" class="col s12">
+      <div class="row">
+        <div class="col s2">
+          <img src="img/iconos/user2.svg" alt="" />
+        </div>
+        <div class="col s8 input-field">
+          <label for="name" data-error="wrong" data-success="right">Nombre y Apellido</label>
+          <input id="name" type="text" class="validate" ng-model="user.name">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s2">
+          <img src="img/iconos/tel.svg" alt="" />
+        </div>
+        <div class="col s8 input-field">
+          <label for="telefono" data-error="wrong" data-success="right">Tel&eacute;fono</label>
+          <input id="telefono" type="text" class="validate" ng-model="user.tel">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s2">
+          <img src="img/iconos/casa.svg" alt="" />
+        </div>
+        <div class="col s8 input-field">
+          <label for="address" data-error="wrong" data-success="right">Direcci&oacute;n</label>
+          <input id="address" type="text" class="validate" ng-model="user.address">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s2">
+          <img src="img/iconos/ciudad.svg" alt="" />
+        </div>
+        <div class="col s8 input-field">
+          <label for="city" data-error="wrong" data-success="right">Ciudad</label>
+          <input id="city" type="text" class="validate" ng-model="user.city">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s2">
+          <img src="img/iconos/provincia.svg" alt="" />
+        </div>
+        <div class="col s8 input-field">
+          <label for="state" data-error="wrong" data-success="right">Provincia</label>
+          <input id="state" type="text" class="validate" ng-model="user.state">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s2">
+          <img src="img/iconos/codpostal.svg" alt="" />
+        </div>
+        <div class="col s8 input-field">
+          <label for="cp" data-error="wrong" data-success="right">C&oacute;digo Postal</label>
+          <input id="cp" type="text" class="validate" ng-model="user.cp">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s2">
+          <img src="img/iconos/cuit.svg" alt="" />
+        </div>
+        <div class="col s8 input-field">
+          <label for="cuit" data-error="wrong" data-success="right">CUIT</label>
+          <input id="cuit" type="text" class="validate" ng-model="user.cuit">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s2">
+          <img src="img/iconos/razonsocial.svg" alt="" />
+        </div>
+        <div class="col s8 input-field">
+          <label for="social" data-error="wrong" data-success="right">Raz&oacute;n Social</label>
+          <input id="social" type="text" class="validate" ng-model="user.social">
+        </div>
+      </div>
+      <div class="row center-align">
+        <button class="btn waves-effect waves-light color_lilas" type="submit" name="action">Enviar
+           <i class="material-icons right">send</i>
+         </button>
+      </div>
+    </form>
+	</div>
+-->
+<!--
+	<div class="row" ng-hide="loginview">
+        <div class="col s6" ng-repeat="raza in razas ">
+          <div class="card">
+            <div class="card-image">
+              <img src="{{raza.imagen}}">
+              <span class="card-title">{{raza.nombre}}</span>
+            </div>
+            <div class="card-content">
+              <a href="#/subcatalogo/{{raza.nombre_raza}}/nombre_raza/{{raza.nombre}}">{{raza.nombre}}</a>
+            </div>
+          </div>
+        </div>
+      </div>
+  -->
+  	<div class="row">
+        <div class="col s6" ng-repeat="raza in razas " style="margin-top:-1px; padding:0 !important;line-height:0 !important;">
+        	<a href="#/subcatalogo/{{raza.nombre_raza}}/nombre_raza/{{raza.nombre}}" style="">
+              <img style="width:100%" src="{{raza.imagen}}">
+          	</a>
+      	</div>
+      	<div class="col s6" style="margin-top:-1px; padding:0 !important;line-height:0 !important;">
+        	<a href="#/destacados" style="">
+              <img style="width:100%" src="img/catalogo/8.png">
+          	</a>
+      	</div>
+	</div>

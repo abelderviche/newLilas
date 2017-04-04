@@ -1,0 +1,53 @@
+<div class="container center  color_lilas_texto">
+<h4>Mis Compras</h4>
+</div>
+<ul class="collection" ng-show="misComprasCount > 0">
+  <li ng-repeat="data in misCompras track by $index" class="collection-item avatar" style="height:auto !important;border-bottom:4px solid #e0e0e0 !important">
+    <img src="img/iconos/toros.png" alt="" class="circle">
+    <p>
+      Fecha: {{ date_format(data.fecha) }}
+    </p>
+    <table>
+      <thead>
+        <tr style="font-weight:bold">
+          <td>
+            Toro
+          </td>
+          <td>
+            Cantidad
+          </td>
+          <td>
+            Precio
+          </td>
+          <td>
+            Total
+          </td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr ng-repeat="compras in data.items track by $index">
+          <td>
+            {{compras._name}}
+          </td>
+          <td>
+            {{compras._quantity}}
+          </td>
+          <td>
+            $ {{compras._price}}
+          </td>
+          <td>
+            $ {{compras._price*compras._quantity}}
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <a class="secondary-content" ng-click="borrarCompra(data.idArray)"><i class="material-icons black-text">close</i></a>
+  </li>
+</ul>
+<ul class="collection" ng-show="misComprasCount === 0">
+  <li class="collection-item avatar" >
+    <i class="material-icons circle pink darken-3">star</i>
+    <span class="title">Todav&iacute;a no ten&eacute;s compras.</span>
+    <p><a href="#/">Mir&aacute; el cat&aacute;logo</a></p>
+  </li>
+</ul>

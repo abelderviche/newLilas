@@ -1,0 +1,9 @@
+
+<div class="container center  color_lilas_texto">
+        <h4>Carrito</h4>
+</div>
+<ngcart-cart></ngcart-cart>
+<div class="row" ng-show="cantidad_carrito > 0 " style="margin-top:25px;">
+    <a class="waves-effect waves-light btn color_lilas"  href="#/datoscompra" ><i class="material-icons left">shopping_cart</i>Comprar</a>
+    <a class="waves-effect waves-light btn  color_lilas"  ng-click="vaciar()" ><i class="material-icons left">delete</i>Vaciar</a>
+</div>

@@ -1,0 +1,158 @@
+<style>
+  form img{
+    margin: 12px;
+  }
+h4{
+
+}
+</style>
+<div class="datosCompra"  ng-hide="showClose">
+  <h5 class="color_lilas_texto">Datos usuario</h5>
+
+    <form name="userForm" ng-submit="submitForm()" class="col s12">
+      <div class="row">
+        <div class="col s2">
+          <img src="img/iconos/user2.svg" alt="" />
+        </div>
+        <div class="col s8 input-field">
+          <label class="active" for="name" data-error="wrong" data-success="right">Nombre y Apellido</label>
+          <input id="name" type="text" class="validate" ng-model="user.name">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s2">
+          <img src="img/iconos/tel.svg" alt="" />
+        </div>
+        <div class="col s8 input-field">
+          <label class="active" for="telefono" data-error="wrong" data-success="right">Tel&eacute;fono</label>
+          <input id="telefono" type="text" class="validate" ng-model="user.tel">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s2">
+          <img src="img/iconos/casa.svg" alt="" />
+        </div>
+        <div class="col s8 input-field">
+          <label class="active" for="address" data-error="wrong" data-success="right">Direcci&oacute;n</label>
+          <input id="address" type="text" class="validate" ng-model="user.address">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s2">
+          <img src="img/iconos/ciudad.svg" alt="" />
+        </div>
+        <div class="col s8 input-field">
+          <label class="active" for="city" data-error="wrong" data-success="right">Ciudad</label>
+          <input id="city" type="text" class="validate" ng-model="user.city">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s2">
+          <img src="img/iconos/provincia.svg" alt="" />
+        </div>
+        <div class="col s8 input-field">
+          <label class="active" for="state" data-error="wrong" data-success="right">Provincia</label>
+          <input id="state" type="text" class="validate" ng-model="user.state">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s2">
+          <img src="img/iconos/codpostal.svg" alt="" />
+        </div>
+        <div class="col s8 input-field">
+          <label class="active" for="cp" data-error="wrong" data-success="right">C&oacute;digo Postal</label>
+          <input id="cp" type="text" class="validate" ng-model="user.cp">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s2">
+          <img src="img/iconos/cuit.svg" alt="" />
+        </div>
+        <div class="col s8 input-field">
+          <label class="active" for="cuit" data-error="wrong" data-success="right">CUIT</label>
+          <input id="cuit" type="text" class="validate" ng-model="user.cuit">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s2">
+          <img src="img/iconos/razonsocial.svg" alt="" />
+        </div>
+        <div class="col s8 input-field">
+          <label class="active" for="social" data-error="wrong" data-success="right">Raz&oacute;n Social</label>
+          <input id="social" type="text" class="validate" ng-model="user.social">
+        </div>
+      </div>
+      <div class="row center-align">
+        <button class="btn waves-effect waves-light color_lilas" type="submit" name="action">Comprar
+           <i class="material-icons right">send</i>
+         </button>
+      </div>
+  </form>
+</div>
+<div class="datosCompra"  ng-show="showClose">
+  <div class="container center">
+    <h4 class="color_lilas_texto">Carrito</h4>
+  <h6>Gracias por realizar su pedido</h6>
+</div>
+<div class="row center" style="margin-top:30px;">
+    <a class="waves-effect waves-light btn  color_lilas"  ng-click="closeFunction()" ><i class="material-icons left">close</i>Cerrar</a>
+</div>
+
+</div>
+
+<!--
+<form name="userForm" ng-submit="submitForm()">
+
+      <div class="input-field col s12">
+        <i class="material-icons prefix">account_box</i>
+        <input id="name" type="text" class="validate" ng-model="user.name">
+        <label class="active" class="active" for="name" data-error="wrong" data-success="right">Nombre y Apellido</label>
+      </div>
+      <div class="input-field col s12">
+        <i class="material-icons prefix">phone</i>
+        <input id="telefono" type="text" class="validate" ng-model="user.tel">
+        <label class="active" for="telefono" data-error="wrong" data-success="right">Tel&eacute;fono</label>
+      </div>
+
+      <div class="input-field col s12">
+        <i class="material-icons">home</i>
+        <input id="address" type="text" class="validate" ng-model="user.address">
+        <label class="active" for="address" data-error="wrong" data-success="right">Direcci&oacute;n</label>
+      </div>
+
+      <div class="input-field col s12">
+        <i class="material-icons">location_city</i>
+        <input id="city" type="text" class="validate" ng-model="user.city">
+        <label class="active" for="city" data-error="wrong" data-success="right">Ciudad</label>
+      </div>
+
+      <div class="input-field col s12">
+        <i class="material-icons">place</i>
+        <input id="state" type="text" class="validate" ng-model="user.state">
+        <label class="active" for="state" data-error="wrong" data-success="right">Provincia</label>
+      </div>
+      <div class="input-field col s12">
+        <i class="material-icons">dialpad</i>
+        <input id="cp" type="text" class="validate" ng-model="user.cp">
+        <label class="active" for="cp" data-error="wrong" data-success="right">C&oacute;digo Postal</label>
+      </div>
+      <div class="input-field col s12">
+        <i class="material-icons">business</i>
+        <input id="cuit" type="text" class="validate" ng-model="user.cuit">
+        <label class="active" for="cuit" data-error="wrong" data-success="right">CUIT</label>
+      </div>
+
+      <div class="input-field col s12">
+        <i class="material-icons">business</i>
+        <input id="social" type="text" class="validate" ng-model="user.social">
+        <label class="active" for="social" data-error="wrong" data-success="right">Raz&oacute;n Social</label>
+      </div>
+
+  <div class="center-align">
+     <button class="btn waves-effect waves-light pink darken-3" type="submit" name="action">Enviar
+        <i class="material-icons right">send</i>
+      </button>
+  </div>
+  </form>
+
+-->

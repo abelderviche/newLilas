@@ -1,0 +1,92 @@
+<style>
+	.seleccionado{
+		background: #8b0d2a;
+		border-radius: 50%;
+		color:white;
+	}
+	.iconin{
+		height: 75px;
+		width: 75px;
+	}
+</style>
+<div class="color_lilas_texto" style="margin-top:15px">
+	<div class="row ">
+		<!--<select class="filtroRaza" name="filtroRaza" style="display:block!important">
+			<option ng-repeat="raza in razas" value="{{raza.id}}">{{raza.nombre}}</option>
+		</select>-->
+		<div class="col s2 valign-wrapper">
+		  <h5 class="valign" style="font-size:20px!important;">Raza:</h5>
+		</div>
+
+		<div class="col s10">
+			<select id="razaSelect" style="display:block!important;" name="show-filter" ng-model="catFilter"
+			   ng-options="raza as raza.nombre for raza in razas">
+				 <option value="">Todas</option>
+			</select>
+		</div>
+	</div>
+	<div class="row center">
+		<div class="s3 col" ng-click="activeRelevantes()">
+			<!-- <i class="material-icons large"  ng-class="{seleccionado:relevantes}">flag</i> -->
+			<img  class="iconin" ng-src="img/iconos/{{relevante_src}}.png">
+			<h6 >M&aacute;s Relevante</h6>
+		</div>
+		<div class="s3 col" ng-click="activeRanking()">
+			<!--<i class="material-icons large">poll</i>-->
+			<img class="iconin" src="img/iconos/{{src_ranking}}.png">
+			<h6>Ranking</h6>
+		</div>
+		<div class="s3 col test" ng-click="order('precio',true)">
+			<!--<i class="material-icons large"  ng-class="{seleccionado:seleccionado=='prec_asc'}">attach_money</i> -->
+			<img class="iconin"  ng-src="img/iconos/{{src_preasc}}.png">
+			<h6>Mayor Precio</h6>
+		</div>
+
+		<div class="s3 col" ng-click="order('precio',false)">
+			<!--<i class="material-icons large"  ng-class="{seleccionado:seleccionado=='prec_desc'}">attach_money</i>-->
+			<img class="iconin" ng-src="img/iconos/{{src_predesc}}.png">
+			<h6>Menor Precio</h6>
+		</div>
+	</div>
+	<div class="row  grey lighten-3">
+		<h5 class="center black-text">Aptos para vaquillonas</h5>
+		<div class=" row col s6 center">
+		15 meses
+			  <div class="switch">
+			    <label>
+			      Off
+			      <input type="checkbox" ng-click="includeColour('15_meses')">
+			      <span class="lever"></span>
+			      On
+			    </label>
+			  </div>
+			  </div>
+		<div class=" row col s6 center">
+			18 meses
+			  <div class="switch">
+			    <label>
+			      Off
+			      <input type="checkbox" ng-click="includeColour('18_meses')">
+			      <span class="lever"></span>
+			      On
+			    </label>
+			  </div>
+		</div>
+	</div>
+</div>
+
+    <div class="row">
+    	<div class="col s6" ng-repeat="cat in catalogo | orderBy:predicate:reverse  | filter:colourFilter | filter:filters | filter:{nombre_raza_cat: catFilter.nombre}: true" style="height:240px;">
+    		<a href="#/detalle/{{cat.id}}">
+	          <div class="card">
+	            <div class="card-image">
+	              <img src="{{cat.imagen_toro}}">
+	            </div>
+	            <div class="card-content grey-text text-lighten-1" style=" padding-top: 0px;">
+	              <h5>{{cat.nombre_toro}}</h5>
+	             <span>Precio p/u: {{cat.precio?'$'+cat.precio:'Consultenos'}}</span>
+	            </div>
+	           </div>
+   			</a>
+        </div>
+	</div>

@@ -1,0 +1,111 @@
+<div class="container center  color_lilas_texto">
+        <h4>{{detalle.nombre_raza_cat}}</h4>
+      </div>
+<div class="color_lilas white-text center">
+Cat&aacute;logo > {{detalle.nombre_raza_cat}} > {{detalle.nombre_toro}}
+</div>
+<style type="text/css">
+	.row{
+		    margin: 0px 5px;
+	}
+</style>
+<div  id="container" >
+        <section class="imagen center">
+          <div class="row">
+            <div class="col s12">
+              <img class="responsive-img" src="{{detalle.imagen_toro}}">
+            </div>
+          </div>
+        </section>
+        <!-- <section class="compartir">
+          <div class="row center color_lilas_texto">
+            <div class="col s6">
+              <i class="material-icons">star</i>
+            </div>
+            <div class="col s4">
+              <i class="material-icons">share</i>
+            </div>
+            <div class="col s6" >
+              <a href="mailto:laslilas@gmail.com?subject=Nueva Compra&body=Solicitud de nombre email %0A para el {{detalle.nombre_toro}} - {{detalle.nombre_raza}} %0A DOSIS ${{detalle.precio}} %0A www.laslilas.com/semen/{{detalle.nombre_toro | lowercase}}" target="_blank"><i class="material-icons pink-text text-darken-3">shopping_cart</i></a>
+            </div>
+          </div>
+        </section>-->
+<!-- desde acá ABEL -->
+<section>
+<ngcart-addtocart ng-show="detalle.precio > 0" id="{{ detalle.id }}" name="{{ detalle.nombre_toro }}" price="{{ detalle.precio }}" quantity="1" quantity-max="30" data="item"></ngcart-addtocart>
+<div class="row grey lighten-3"  ng-if="detalle.precio === 0"style="padding:13px">
+  <div class="col s6 color_lilas_texto" style="padding:15px">
+    Consultar precio
+  </div>
+    <div class="col s6 color_lilas_texto center-align">
+      <a  href="mailto:laslilas@gmail.com?subject=Consulta&body=Consulta de nombre email %0A para el {{detalle.nombre_toro}} - {{detalle.nombre_raza}} %0A www.laslilas.com/semen/{{detalle.nombre_toro | lowercase}}" class="btn-floating btn-large waves-effect waves-light pink darken-3" target="_blank"><i class="material-icons">mail</i></a>
+    </div>
+</div>
+</section>
+<div ng-hide="botones_venta" class="row center-align"><br>
+  <a href="#/carrito" class="waves-effect waves-light btn"><i class="material-icons right">send</i>Ver Pedidos</a>
+</div>
+<br>
+<!-- HASTA acá ABEL -->
+        <section class="descripcion" style="margin-top: -14px;">
+          <div class="row grey lighten-3">
+            <div class="col s12">
+              <div>{{detalle.nombre_toro}}</div>
+              <div>{{extra}}</div>
+              <div>{{detalle.fn?'F.N '+detalle.fn:''}}</div>
+              <div>{{detalle.hba?'HBA '+detalle.hba:''}}</div>
+              <div>{{detalle.aba?'ABA '+detalle.aba:''}}</div>
+              <div>{{detalle.senasa?'SENASA '+detalle.senasa:''}}</div>
+              <div>{{detalle.adn?'ADN '+detalle.adn:''}}</div>
+              <div>{{detalle.semen?'SEMEN '+detalle.semen:''}}</div>
+              <div>{{detalle.registro?'Registro '+detalle.registro:''}}</div>
+              <div>{{detalle.tatuaje?'Tatuaje '+detalle.tatuaje:''}}</div>
+            </div>
+
+          </div>
+          <div class="row grey lighten-2 ">
+            <div class="col s12">
+              <div><b>PAN</b> {{detalle.pan}}</div>
+              <div><b>PAD</b> {{detalle.pad}}</div>
+              <div><b>PAF</b> {{detalle.paf}}</div>
+              <div><b>FRAME</b> {{detalle.frame}}</div>
+              <div><b>C.E.</b> {{detalle.ce}}</div>
+              <div><b>PESO ADULTO</b> {{detalle.peso}}</div>
+            </div>
+
+          </div>
+          <div class="row grey lighten-3 ">
+            <div class="col s12">
+                <div>{{detalle.descripcion1?'- '+detalle.descripcion1:''}}</div>
+                <div>{{detalle.descripcion2?'- '+detalle.descripcion2:''}}</div>
+                <div>{{detalle.descripcion3?'- '+detalle.descripcion3:''}}</div>
+                <div>{{detalle.descripcion4?'- '+detalle.descripcion4:''}}</div>
+            </div>
+
+          </div>
+        </section>
+
+
+          <div class="row">
+            <div class="col s12" style="padding: 0px;">
+              <img class="responsive-img" src="{{detalle.imagen_toro2}}">
+            </div>
+          </div>
+
+        <section class="compartir">
+          <div class="row center color_lilas_texto" style="margin:5px 0;">
+            <div class="col s12" ng-click="agregarFavoritos(1)">
+              <a ng-show="botones_favoritos" class="btn-floating btn-large waves-effect waves-light pink darken-3"><i class="material-icons">star</i></a>
+              <a ng-hide="botones_favoritos" class="btn-floating btn-large waves-effect waves-light teal"><i class="material-icons">star</i></a>
+            </div>
+
+            <div class="col s6" ng-click="agregarVentaAbajo(1)" style="display:none;">
+              <a href="mailto:laslilas@gmail.com?subject=Nueva Compra&body=Solicitud de nombre email %0A para el {{detalle.nombre_toro}} - {{detalle.nombre_raza}} %0A DOSIS ${{detalle.precio}} - Cantidad: {{count}} - Total: ${{detalle.precio * count}} (los precios no incluyen IVA) %0A www.laslilas.com/semen/{{detalle.nombre_toro | lowercase}}" class="btn-floating btn-large waves-effect waves-light pink darken-3" target="_blank" ng-show="botones_venta_abajo"><i class="material-icons">shopping_cart</i></a>
+              <a ng-hide="botones_venta_abajo" class="btn-floating btn-large waves-effect waves-light teal"><i class="material-icons">check</i></a>
+            </div>
+          </div>
+        </section>
+         </div>
+         <div ng-hide="botones_venta_abajo" class="row center-align" style="margin-bottom: 20px;"><br>
+  <a href="#/carrito" class="waves-effect waves-light btn"><i class="material-icons right">send</i>Ver Pedidos</a>
+</div>

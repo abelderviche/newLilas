@@ -1,0 +1,65 @@
+<!--<div ng-hide="attrs.id">
+    <a class="btn btn-lg btn-primary" ng-disabled="true" ng-transclude></a>
+
+</div>
+<div ng-show="attrs.id">
+    <div>
+        <span ng-show="quantityMax">
+            <select name="quantity" id="quantity" ng-model="q"
+                    ng-options=" v for v in qtyOpt"></select>
+        </span>
+        <a class="btn btn-sm btn-primary"
+           ng-click="ngCart.addItem(id, name, price, q, data)"
+           ng-transclude></a>
+    </div>
+    <mark  ng-show="inCart()">
+        This item is in your cart. <a ng-click="ngCart.removeItemById(id)" style="cursor: pointer;">Remove</a>
+    </mark>
+</div> -->
+
+<div class="row grey lighten-3"   style="padding:13px">
+  <div class="col s6 color_lilas_texto">
+    <div class="col s12">
+      <!--
+      <select style="display:block!important" name="quantity" id="quantity" ng-model="q"
+      ng-options=" v for v in qtyOpt"></select>
+    -->
+    <input type="number" style="font-size:2rem;" ng-init="q=1" ng-model="q" value="" ng-required>
+    </div>
+    <div class="col s12">
+      <span style="font-size:1.1rem;">Precio U.: ${{price}}</span>
+      <span style="font-size:1.1rem;">Subtotal: ${{price * q}}</span>
+    </div>
+  </div>
+    <div class="col s6 color_lilas_texto center-align"><br>
+    <!--  <a ng-click="agregarVenta(count)" href="mailto:laslilas@gmail.com?subject=Nueva Compra&body=<table>Test</table>Solicitud de nombre email %0A para el {{detalle.nombre_toro}} - {{detalle.nombre_raza}} %0A DOSIS ${{detalle.precio}} - Cantidad: {{count}} - Total: ${{detalle.precio * count}} (los precios no incluyen IVA) %0A www.laslilas.com/semen/{{detalle.nombre_toro | lowercase}}" class="btn-floating btn-large waves-effect waves-light pink darken-3" target="_blank" ng-show="botones_venta"><i class="material-icons">shopping_cart</i></a>
+      <a ng-hide="botones_venta" class="btn-floating btn-large waves-effect waves-light teal"><i class="material-icons">check</i></a>
+  -->
+      <div class="col s6">
+        <a ng-click="ngCart.addItem(id, name, price, q, data)" ng-transclude class="btn-floating btn-large waves-effect waves-light pink darken-3" target="_blank" >
+          <i class="material-icons" ng-hide="inCart()">shopping_cart</i>
+          <i class="material-icons" ng-show="inCart()">add</i>
+        </a>
+      </div>
+      <div class="col s6" ng-show="inCart()">
+            Ya se encuentra en el carrito. <a ng-click="ngCart.removeItemById(id)" style="cursor: pointer;">Eliminar</a>
+      </div>
+    </div>
+
+</div>
+
+<div ng-hide="attrs.id">
+    <a class="btn btn-lg btn-primary" ng-disabled="true" ng-transclude></a>
+</div>
+<!--
+<div ng-show="attrs.id">
+    <div>
+        <span ng-show="quantityMax">
+
+        </span>
+        <a ng-click="ngCart.addItem(id, name, price, q, data)"
+        ng-transclude class="btn-floating btn-large waves-effect waves-light pink darken-3" target="_blank" ><i class="material-icons">shopping_cart</i></a>
+    </div>
+
+</div>
+-->
