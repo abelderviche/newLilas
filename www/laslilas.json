@@ -2530,8 +2530,8 @@
 {
 	"id": 102,
 	"nombre_toro":"Yelmo",
-	"nombre_raza":"brahman_colorado",
-	"nombre_raza_cat":"Brahman Colorado",
+	"nombre_raza":"brahman",
+	"nombre_raza_cat":"Brahman",
 	"destacado":1,
 	"imagen_toro":"img/yelmo-top.jpg",
 	"imagen_toro2":"img/yelmo-back.jpg",
