@@ -7,7 +7,7 @@
 	"imagen_toro":"img/matrero-top.jpg",
 	"imagen_toro2":"img/matrero-back.jpg",
 	"aptosvaquillonas":"15_meses",
-	"precio":"188",
+	"precio":"197",
 
 	"fn":"06/05/09",
 	"hba":"783709",
@@ -33,7 +33,7 @@
 	"imagen_toro":"img/Arafat-top.jpg",
 	"imagen_toro2":"img/Arafat-back.jpg",
 	"aptosvaquillonas":"15_meses",
-	"precio":"245",
+	"precio":"280",
 	"fn":"05/04/08",
 	"hba":"776172",
 	"senasa":"I-67AA2746",
@@ -59,7 +59,7 @@
 	"imagen_toro":"img/Etiqueta-verde-top.jpg",
 	"imagen_toro2":"img/Etiqueta-verde-back.jpg",
 	"aptosvaquillonas":"18_meses",
-	"precio":"148",
+	"precio":"163",
 
 	"fn":"19/04/13",
 	"hba":"811061",
@@ -88,7 +88,7 @@
 	"imagen_toro":"img/Maxqbueno-top.jpg",
 	"imagen_toro2":"img/Maxqbueno-back.jpg",
 	"aptosvaquillonas":"15_meses",
-	"precio":"167",
+	"precio":"176",
 
 	"fn":"15/04/05",
 	"hba":"746123",
@@ -119,7 +119,7 @@
 	"imagen_toro":"img/etiqueta-negra-top.jpg",
 	"imagen_toro2":"img/etiqueta-negra-back.jpg",
 	"aptosvaquillonas":"15_meses",
-	"precio":"228",
+	"precio":"238",
 
 	"fn":"02/04/03",
 	"hba":"734060",
@@ -148,7 +148,7 @@
 	"imagen_toro":"img/Apostado-top.jpg",
 	"imagen_toro2":"img/Apostado-back.jpg",
 	"aptosvaquillonas":"15_meses",
-	"precio":"138",
+	"precio":"151",
 
 	"fn":"23/04/2011",
 	"hba":"801070",
@@ -168,34 +168,6 @@
 		,"ranking":0
 },
 
-{
-	"id": 9,
-	"nombre_toro":"Picaflor",
-	"nombre_raza":"angus_negro",
-	"nombre_raza_cat":"Angus Negro",
-	"destacado":1 ,
-	"imagen_toro":"img/Picaflor-top.jpg",
-	"imagen_toro2":"img/picaflor-back.jpg",
-	"aptosvaquillonas":"",
-	"precio":"110",
-
-	"fn":"05/04/11",
-	"hba":"801097",
-	"senasa":"I-67AA3115",
-	"adn":"N0189534",
-
-	"pan":"35,0 kg",
-	"pad":"287 kg / 127",
-	"paf":"504 kg / 103",
-	"frame":"4,8",
-	"ce":"43 cm",
-	"peso":"930 kg",
-	"descripcion1":"Certera combinación de linajes nobles Zorzal encabezando a la rama superior, y GT Maximum por parte materna representado por los productivos Max 930C y Max 602C.",
-	"descripcion2":"Buen perfil de crecimiento para peso al destete y final, acompañado de excelente habilidad materna.",
-	"descripcion3":"Su gran calidad racial y su destacado fenotipo carnicero, lo hacen recomendable para el mejoramiento de una amplia gama de planteles y rodeos Angus."
-
-		,"ranking":0
-},
 
 {
 	"id": 10,
@@ -206,7 +178,7 @@
 	"imagen_toro":"img/valor-top.jpg",
 	"imagen_toro2":"img/valor-back.jpg",
 	"aptosvaquillonas":"18_meses",
-	"precio":"142",
+	"precio":"155",
 
 	"fn":"20/05/12",
 	"hba":"809937",
@@ -235,7 +207,7 @@
 	"imagen_toro":"img/centinela-top.jpg",
 	"imagen_toro2":"img/centinela-back.jpg",
 	"aptosvaquillonas":"15_meses",
-	"precio":"179",
+	"precio":"185",
 
 	"fn":"05/08/05",
 	"hba":"747220",
@@ -264,7 +236,7 @@
 	"imagen_toro":"img/mandinga-top.jpg",
 	"imagen_toro2":"img/mandinga-back.jpg",
 	"aptosvaquillonas":"15_meses",
-	"precio":"160",
+	"precio":"175",
 
 	"fn":"06/05/08",
 	"hba":"784112",
@@ -293,7 +265,7 @@
 	"imagen_toro":"img/max-top.jpg",
 	"imagen_toro2":"img/max-back.jpg",
 	"aptosvaquillonas":"15_meses",
-	"precio":"360",
+	"precio":"385",
 
 	"fn":"09/03/93",
 	"hba":"704379",
@@ -322,7 +294,7 @@
 	"imagen_toro":"img/sobrador-top.jpg",
 	"imagen_toro2":"img/sobrador-back.jpg",
 	"aptosvaquillonas":"15_meses",
-	"precio":"160",
+	"precio":"179",
 
 	"fn":"18/05/06",
 	"hba":"763487",
@@ -351,7 +323,7 @@
 	"imagen_toro":"img/queva-top.jpg",
 	"imagen_toro2":"img/queva-back.jpg",
 	"aptosvaquillonas":"18_meses",
-	"precio":"156",
+	"precio":"196",
 
 	"fn":"27/03/14",
 	"hba":"812082",
@@ -380,7 +352,7 @@
 	"imagen_toro":"img/mexicano-top.jpg",
 	"imagen_toro2":"img/mexicano-back.jpg",
 	"aptosvaquillonas":"",
-	"precio":"135",
+	"precio":"149",
 
 	"fn":"19/04/05",
 	"hba":"746131",
@@ -409,7 +381,7 @@
 	"imagen_toro":"img/quebrantao-top.jpg",
 	"imagen_toro2":"img/quebrantao-back.jpg",
 	"aptosvaquillonas":"18_meses",
-	"precio":"180",
+	"precio":"207",
 
 	"fn":"19/01/11",
 	"hba":"801100",
@@ -437,7 +409,7 @@
 	"imagen_toro":"img/al-mos-top.jpg",
 	"imagen_toro2":"img/al-mos-back.jpg",
 	"aptosvaquillonas":"15_meses",
-	"precio":"119",
+	"precio":"127",
 
 	"fn":"08/05/05",
 	"hba":"746145",
@@ -466,7 +438,7 @@
 	"imagen_toro":"img/lapacho-top.jpg",
 	"imagen_toro2":"img/lapacho-back.jpg",
 	"aptosvaquillonas":"18_meses",
-	"precio":"128",
+	"precio":"139",
 
 	"fn":"10/06/13",
 	"hba":"806343",
@@ -495,7 +467,7 @@
 	"imagen_toro":"img/chamaco-top.jpg",
 	"imagen_toro2":"img/chamaco-back.jpg",
 	"aptosvaquillonas":"18_meses",
-	"precio":"103",
+	"precio":"109",
 
 	"fn":"09/05/10",
 	"hba":"779594",
@@ -524,7 +496,7 @@
 	"imagen_toro":"img/crios-top.jpg",
 	"imagen_toro2":"img/crios-back.jpg",
 	"aptosvaquillonas":"18_meses",
-	"precio":"99",
+	"precio":"105",
 
 	"fn":"18/05/09",
 	"hba":"781448",
@@ -553,7 +525,7 @@
 	"imagen_toro":"img/pucara-top.jpg",
 	"imagen_toro2":"img/pucara-back.jpg",
 	"aptosvaquillonas":"15_meses",
-	"precio":"176",
+	"precio":"203",
 
 	"fn":"22/06/09",
 	"hba":"776489",
@@ -582,7 +554,7 @@
 	"imagen_toro":"img/tiorico-top.jpg",
 	"imagen_toro2":"img/tiorico-back.jpg",
 	"aptosvaquillonas":"15_meses",
-	"precio":"183",
+	"precio":"201",
 
 	"fn":"01/04/09",
 	"hba":"X423158",
@@ -611,7 +583,7 @@
 	"imagen_toro":"img/Oklahoma-top.jpg",
 	"imagen_toro2":"img/Oklahoma-back.jpg",
 	"aptosvaquillonas":"15_meses",
-	"precio":"161",
+	"precio":"177",
 
 	"fn":"09/04/11",
 	"hba":"X423170",
@@ -639,7 +611,7 @@
 	"imagen_toro":"img/sabroso-top.jpg",
 	"imagen_toro2":"img/sabroso-back.jpg",
 	"aptosvaquillonas":"15_meses",
-	"precio":"108",
+	"precio":"119",
 
 	"fn":"16/04/11",
 	"hba":"",
@@ -667,7 +639,7 @@
 	"imagen_toro":"img/victorio-top.jpg",
 	"imagen_toro2":"img/victorio-back.jpg",
 	"aptosvaquillonas":"18_meses",
-	"precio":"128",
+	"precio":"140",
 
 	"fn":"15/05/08",
 	"hba":"X419358",
@@ -696,7 +668,7 @@
 	"imagen_toro":"img/podersupremo-top.jpg",
 	"imagen_toro2":"img/podersupremo-back.jpg",
 	"aptosvaquillonas":"18_meses",
-	"precio":"120",
+	"precio":"133",
 
 	"fn":"17/04/13",
 	"hba":"X429518",
@@ -754,7 +726,7 @@
 	"imagen_toro":"img/soydelpalo-top.jpg",
 	"imagen_toro2":"img/soydelpalo-back.jpg",
 	"aptosvaquillonas":"",
-	"precio":"143",
+	"precio":"160",
 
 	"fn":"23/12/13",
 	"hba":"143049",
@@ -783,7 +755,7 @@
 	"imagen_toro":"img/clasico-top.jpg",
 	"imagen_toro2":"img/clasico-back.jpg",
 	"aptosvaquillonas":"18_meses",
-	"precio":"130",
+	"precio":"143",
 
     "definitivo":"5º Gen.",
 	"fn":"21/01/09",
@@ -813,7 +785,7 @@
 	"imagen_toro":"img/fronterizo-top.jpg",
 	"imagen_toro2":"img/fronterizo-back.jpg",
 	"aptosvaquillonas":"18_meses",
-	"precio":"187",
+	"precio":"203",
 
     "definitivo":"5º Gen.",
 	"fn":"31/10/08",
@@ -843,7 +815,7 @@
 	"imagen_toro":"img/noqueador-top.jpg",
 	"imagen_toro2":"img/noqueador-back.jpg",
 	"aptosvaquillonas":"18_meses",
-	"precio":"123",
+	"precio":"135",
    "definitivo":"6º Gen.",
 	"fn":"03/10/11",
 	"hba":"E/T",
@@ -872,7 +844,7 @@
 	"imagen_toro":"img/libertango-top.jpg",
 	"imagen_toro2":"img/libertango-back.jpg",
 	"aptosvaquillonas":"18_meses",
-	"precio":"199",
+	"precio":"209",
 
     "definitivo":"6º Gen.",
 	"fn":"21/08/12",
@@ -902,7 +874,7 @@
 	"imagen_toro":"img/tabasco-top.jpg",
 	"imagen_toro2":"img/tabasco-back.jpg",
 	"aptosvaquillonas":"18_meses",
-	"precio":"107",
+	"precio":"118",
 
     "definitivo":"6º Gen.",
 	"fn":"21/08/07",
@@ -932,7 +904,7 @@
 	"imagen_toro":"img/monterrey-top.jpg",
 	"imagen_toro2":"img/monterrey-back.jpg",
 	"aptosvaquillonas":"18_meses",
-	"precio":"103",
+	"precio":"115",
 
     "avanzado":"5º Gen.",
 	"fn":"22/07/02",
@@ -962,7 +934,7 @@
 	"imagen_toro":"img/mezcal-top.jpg",
 	"imagen_toro2":"img/mezcal-back.jpg",
 	"aptosvaquillonas":"18_meses",
-	"precio":"122",
+	"precio":"136",
 
     "avanzado":"6º Gen.",
 	"fn":"29/10/11",
@@ -992,7 +964,7 @@
 	"imagen_toro":"img/bagual-top.jpg",
 	"imagen_toro2":"img/bagual-back.jpg",
 	"aptosvaquillonas":"",
-	"precio":"110",
+	"precio":"125",
 
     "avanzado":"5º Gen.",
 	"fn":"20/08/05",
@@ -1022,7 +994,7 @@
 	"imagen_toro":"img/soyunico-top.jpg",
 	"imagen_toro2":"img/soyunico-back.jpg",
 	"aptosvaquillonas":"",
-	"precio":"210",
+	"precio":"235",
 
     "preparatorio":"3º Gen.",
 	"fn":"04/02/09",
@@ -1052,7 +1024,7 @@
 	"imagen_toro":"img/reeditado-top.jpg",
 	"imagen_toro2":"img/reeditado-back.jpg",
 	"aptosvaquillonas":"",
-	"precio":"160",
+	"precio":"171",
 
     "definitivo":"6º Gen.",
 	"fn":"27/09/12",
@@ -1082,7 +1054,7 @@
 	"imagen_toro":"img/combativo-top.jpg",
 	"imagen_toro2":"img/combativo-back.jpg",
 	"aptosvaquillonas":"18_meses",
-	"precio":"120",
+	"precio":"134",
 
     "definitivo":"4º Gen.",
 	"fn":"30/08/07",
@@ -1133,35 +1105,7 @@
 		,"ranking":0
 },
 
-{
-	"id": 51,
-	"nombre_toro":"Hollywood",
-	"nombre_raza":"brangus_negro",
-	"nombre_raza_cat":"Brangus Negro",
-	"destacado":0,
-	"imagen_toro":"img/hollywood-top.jpg",
-	"imagen_toro2":"img/hollywod-back.jpg",
-	"aptosvaquillonas":"",
-	"precio":0,
 
-    "definitivo":"7º Gen.",
-	"fn":"06/09/13",
-	"semen": "IMPORTADO",
-	"registro":"10241840",
-	"tatuaje":"23A53",
-
-	"pan":"38 kg",
-	"pad":"372 kg",
-	"paf":"540 kg",
-	"frame":"5,5",
-	"ce":"41 cm",
-	"peso":"S/I kg",
-	"descripcion1":"El mejor hijo de New Vision of Salacoa 209Y2 en una madre Patton of Brinks 30T22, de gran calidad racial. Toro de sobresalientes masas musculares, ancho de lomo y adecuado grado de acebusamiento, con el respaldo de siete generaciones.",
-	"descripcion2":"De gran balance en sus DEP, se destaca por su moderado peso al nacer y excepcional CE y área de ojo de bife. Tiene un pedigree abierto y de gran respaldo genético, ya que sus dos abuelas y madre son donantes de primera línea en Salacoa.",
-	"descripcion3":"Muy útil para imprimir precocidad, cualidades carniceras y fertilidad en su descendencia."
-
-		,"ranking":0
-},
 
 {
 	"id": 52,
@@ -1172,7 +1116,7 @@
 	"imagen_toro":"img/apipo-top.jpg",
 	"imagen_toro2":"img/apipo-back.jpg",
 	"aptosvaquillonas":"18_meses",
-	"precio":"99",
+	"precio":"107",
 
     "avanzado":"5º Gen.",
 	"fn":"01/07/06",
@@ -1231,7 +1175,7 @@
 	"imagen_toro":"img/bigguy-top.jpg",
 	"imagen_toro2":"img/bigguy-back.jpg",
 	"aptosvaquillonas":"18_meses",
-	"precio":"130",
+	"precio":"145",
 
     "definitivo":"",
 	"fn":"18/09/12",
@@ -1261,7 +1205,7 @@
 	"imagen_toro":"img/capitanbc-top.jpg",
 	"imagen_toro2":"img/capitanbc-back.jpg",
 	"aptosvaquillonas":"18_meses",
-	"precio":"375",
+	"precio":"410",
 
     "definitivo":"7º GEN.",
 	"fn":"25/01/06",
@@ -1291,7 +1235,7 @@
 	"imagen_toro":"img/areco-top.jpg",
 	"imagen_toro2":"img/areco-back.jpg",
 	"aptosvaquillonas":"",
-	"precio":"141",
+	"precio":"157",
 
 	"fn":"23/12/13",
 	"hba":"143050",
@@ -1320,7 +1264,7 @@
 	"imagen_toro":"img/confederacion-top.jpg",
 	"imagen_toro2":"img/confederacion-back.jpg",
 	"aptosvaquillonas":"18_meses",
-	"precio":"137",
+	"precio":"153",
 
 	"fn":"17/01/13",
 	"hba":"D142120",
@@ -1349,7 +1293,7 @@
 	"imagen_toro":"img/liberado-top.jpg",
 	"imagen_toro2":"img/liberado-back.jpg",
 	"aptosvaquillonas":"18_meses",
-	"precio":"99",
+	"precio":"105",
 
     "definitivo":"6º GEN.",
 	"fn":"23/08/11",
@@ -1379,7 +1323,7 @@
 	"imagen_toro":"img/federacion-top.jpg",
 	"imagen_toro2":"img/federacion-back.jpg",
 	"aptosvaquillonas":"",
-	"precio":"122",
+	"precio":"136",
 
     "avanzado":"  ",
 	"fn":"27/03/12",
@@ -1409,7 +1353,7 @@
 	"imagen_toro":"img/rancagua-top.jpg",
 	"imagen_toro2":"img/rancagua-back.jpg",
 	"aptosvaquillonas":"18_meses",
-	"precio":"149",
+	"precio":"166",
 
     "definitivo":"6º GEN.",
 	"fn":"18/09/09",
@@ -1438,7 +1382,7 @@
 	"imagen_toro":"img/democrata-top.jpg",
 	"imagen_toro2":"img/democrata-back.jpg",
 	"aptosvaquillonas":"18_meses",
-	"precio":"167",
+	"precio":"187",
 
     "definitivo":"6º GEN.",
 	"fn":"22/08/12",
@@ -1468,7 +1412,7 @@
 	"imagen_toro":"img/mauleon-top.jpg",
 	"imagen_toro2":"img/mauleon-back.jpg",
 	"aptosvaquillonas":"",
-	"precio":"95",
+	"precio":"103",
 
     "avanzado":"4º GEN.",
 	"fn":"23/09/01",
@@ -1527,7 +1471,7 @@
 	"imagen_toro":"img/liberal-top.jpg",
 	"imagen_toro2":"img/liberal-back.jpg",
 	"aptosvaquillonas":"18_meses",
-	"precio":"155",
+	"precio":"173",
 
     "definitivo":"6º GEN.",
 	"fn":"08/10/07",
@@ -1557,7 +1501,7 @@
 	"imagen_toro":"img/mackanudo-top.jpg",
 	"imagen_toro2":"img/mackanudo-back.jpg",
 	"aptosvaquillonas":"18_meses",
-	"precio":"113",
+	"precio":"126",
 
     "avanzado":"3º GEN.",
 	"fn":"09/02/06",
@@ -1587,7 +1531,7 @@
 	"imagen_toro":"img/granate-top.jpg",
 	"imagen_toro2":"img/granate-back.jpg",
 	"aptosvaquillonas":"18_meses",
-	"precio":"170",
+	"precio":"189",
 
     "definitivo":"5º GEN.",
 	"fn":"15/09/08",
@@ -1617,7 +1561,7 @@
 	"imagen_toro":"img/capitan-top.jpg",
 	"imagen_toro2":"img/capitan-back.jpg",
 	"aptosvaquillonas":"18_meses",
-	"precio":"152",
+	"precio":"170",
 
     "definitivo":"5º GEN.",
 	"fn":"27/06/06",
@@ -1647,7 +1591,7 @@
 	"imagen_toro":"img/diego-top.jpg",
 	"imagen_toro2":"img/diego-back.jpg",
 	"aptosvaquillonas":"",
-	"precio":"147",
+	"precio":"153",
 
     "registrado":"REGISTRADO",
 	"fn":"20/09/12",
@@ -1678,7 +1622,7 @@
 	"imagen_toro":"img/puertotirol-top.jpg",
 	"imagen_toro2":"img/puertotirol-back.jpg",
 	"aptosvaquillonas":"18_meses",
-	"precio":"160",
+	"precio":"180",
 
     "avanzado":"4º GEN.",
 	"fn":"05/09/03",
@@ -1708,7 +1652,7 @@
 	"imagen_toro":"img/duende-top.jpg",
 	"imagen_toro2":"img/duende-back.jpg",
 	"aptosvaquillonas":"18_meses",
-	"precio":"132",
+	"precio":"145",
 
     "avanzado":"4º GEN.",
 	"fn":"08/04/02",
@@ -1738,7 +1682,7 @@
 	"imagen_toro":"img/soypampa-top.jpg",
 	"imagen_toro2":"img/soypampa-back.jpg",
 	"aptosvaquillonas":"",
-	"precio":"190",
+	"precio":"215",
 
     "preparatorio":"2º GEN.",
 	"fn":"22/07/09",
@@ -1798,7 +1742,7 @@
 	"imagen_toro":"img/correntino-top.jpg",
 	"imagen_toro2":"img/correntino-back.jpg",
 	"aptosvaquillonas":"18_meses",
-	"precio":"125",
+	"precio":"139",
 
     "controlado":"3º GEN.",
 	"fn":"14/09/00",
@@ -1828,7 +1772,7 @@
 	"imagen_toro":"img/cienxcien-top.jpg",
 	"imagen_toro2":"img/cienxcien-back.jpg",
 	"aptosvaquillonas":"18_meses",
-	"precio":"97",
+	"precio":"105",
 
     "controlado":"3º GEN.",
 	"fn":"26/10/04",
@@ -1858,7 +1802,7 @@
 	"imagen_toro":"img/formosa-top.jpg",
 	"imagen_toro2":"img/formosa-back.jpg",
 	"aptosvaquillonas":"18_meses",
-	"precio":"119",
+	"precio":"125",
 
 	"fn":"31/08/11",
 	"hba":"21641",
@@ -1887,7 +1831,7 @@
 	"imagen_toro":"img/campowinter-top.jpg",
 	"imagen_toro2":"img/campowinter-back.jpg",
 	"aptosvaquillonas":"18_meses",
-	"precio":"135",
+	"precio":"151",
 
 	"fn":"30/09/13",
 	"hba":"21900",
@@ -1916,7 +1860,7 @@
 	"imagen_toro":"img/soybueno-top.jpg",
 	"imagen_toro2":"img/soybueno-back.jpg",
 	"aptosvaquillonas":"18_meses",
-	"precio":"157",
+	"precio":"185",
 
 	"fn":"20/08/98",
 	"hba":"19132",
@@ -1945,7 +1889,7 @@
 	"imagen_toro":"img/soymejor-top.jpg",
 	"imagen_toro2":"img/soymejor-back.jpg",
 	"aptosvaquillonas":"18_meses",
-	"precio":"150",
+	"precio":"167",
 
 	"fn":"19/02/04",
 	"hba":"19863",
@@ -1974,7 +1918,7 @@
 	"imagen_toro":"img/holding-top.jpg",
 	"imagen_toro2":"img/holding-back.jpg",
 	"aptosvaquillonas":"18_meses",
-	"precio":"108",
+	"precio":"118",
 
 	"fn":"01/09/07",
 	"hba":"20825",
@@ -2003,7 +1947,7 @@
 	"imagen_toro":"img/supremo-top.jpg",
 	"imagen_toro2":"img/supremo-back.jpg",
 	"aptosvaquillonas":"18_meses",
-	"precio":"140",
+	"precio":"153",
 
 	"fn":"15/02/03",
 	"hba":"19604",
@@ -2032,7 +1976,7 @@
 	"imagen_toro":"img/tacuari-top.jpg",
 	"imagen_toro2":"img/tacuari-back.jpg",
 	"aptosvaquillonas":"18_meses",
-	"precio":"120",
+	"precio":"129",
 
 	"fn":"24/08/93",
 	"hba":"18604",
@@ -2061,7 +2005,7 @@
 	"imagen_toro":"img/houston-top.jpg",
 	"imagen_toro2":"img/houston-back.jpg",
 	"aptosvaquillonas":"",
-	"precio":"295",
+	"precio":"315",
 
 	"fn":"01/02/97",
 	"hba":"18721",
@@ -2093,7 +2037,7 @@
 	"imagen_toro":"img/zumbador-top.jpg",
 	"imagen_toro2":"img/zumbador-back.jpg",
 	"aptosvaquillonas":"",
-	"precio":"152",
+	"precio":"167",
 
 	"fn":"10/06/2013",
 	"hba":"811086",
@@ -2123,7 +2067,7 @@
 	"imagen_toro":"img/vigilante-top.jpg",
 	"imagen_toro2":"img/vigilante-back.jpg",
 	"aptosvaquillonas":"18_meses",
-	"precio":"158",
+	"precio":"170",
 
 	"fn":"01/07/2014",
 	"hba":"827641",
@@ -2152,7 +2096,7 @@
 	"imagen_toro":"img/vital-top.jpg",
 	"imagen_toro2":"img/vital-back.jpg",
 	"aptosvaquillonas":"18_meses",
-	"precio":"133",
+	"precio":"148",
 
 	"fn":"26/05/2014",
 	"hba":"829102",
@@ -2181,7 +2125,7 @@
 	"imagen_toro":"img/fana-top.jpg",
 	"imagen_toro2":"img/fana-back.jpg",
 	"aptosvaquillonas":"18_meses",
-	"precio":"165",
+	"precio":"181",
 
 	"fn":"28/01/2014",
 	"hba":"X429297",
@@ -2210,7 +2154,7 @@
 	"imagen_toro":"img/fiesta-top.jpg",
 	"imagen_toro2":"img/fiesta-back.jpg",
 	"aptosvaquillonas":"18_meses",
-	"precio":"156",
+	"precio":"173",
 
 	"fn":"22/03/2014",
 	"hba":"X429565",
@@ -2239,7 +2183,7 @@
 	"imagen_toro":"img/legado-top.jpg",
 	"imagen_toro2":"img/legado-back.jpg",
 	"aptosvaquillonas":"",
-	"precio":"173",
+	"precio":"193",
 
 	"definitivo":"6º Gen.",
 	"fn":"21/01/2013",
@@ -2269,7 +2213,7 @@
 	"imagen_toro":"img/cachafaz-top.jpg",
 	"imagen_toro2":"img/cachafaz-back.jpg",
 	"aptosvaquillonas":"18_meses",
-	"precio":"157",
+	"precio":"171",
 
 	"definitivo":"4º Gen.",
 	"fn":"13/02/2014",
@@ -2299,7 +2243,7 @@
 	"imagen_toro":"img/macedonia-top.jpg",
 	"imagen_toro2":"img/macedonia-back.jpg",
 	"aptosvaquillonas":"18_meses",
-	"precio":"135",
+	"precio":"151",
 
 	"Registrado":"5º Gen.",
 	"fn":"10/10/2013",
@@ -2330,7 +2274,7 @@
 	"imagen_toro":"img/kuimbae-top.jpg",
 	"imagen_toro2":"img/kuimbae-back.jpg",
 	"aptosvaquillonas":"18_meses",
-	"precio":"185",
+	"precio":"207",
 
 	"Avanzado":"",
 	"fn":"03/02/2014",
@@ -2360,7 +2304,7 @@
 	"imagen_toro":"img/lanus-top.jpg",
 	"imagen_toro2":"img/lanus-back.jpg",
 	"aptosvaquillonas":"",
-	"precio":"143",
+	"precio":"150",
 
 	"Controlado":"",
 	"fn":"16/08/2013",
@@ -2391,7 +2335,7 @@
 	"imagen_toro":"img/yelmo-top.jpg",
 	"imagen_toro2":"img/yelmo-back.jpg",
 	"aptosvaquillonas":"",
-	"precio":"145",
+	"precio":"150",
 
 	
 	"fn":"22/02/2014",
@@ -2422,7 +2366,7 @@
 	"imagen_toro":"img/hiram-top.jpg",
 	"imagen_toro2":"img/hiram-back.jpg",
 	"aptosvaquillonas":"18_meses",
-	"precio":"128",
+	"precio":"135",
 
 	
 	"fn":"22/02/2014",
