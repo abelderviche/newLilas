@@ -2683,35 +2683,6 @@
 },
 
 
-{
-	"id": 107,
-	"nombre_toro":"Master",
-	"nombre_raza":"brahman",
-	"nombre_raza_cat":"Brahman",
-	"destacado":1,
-	"imagen_toro":"img/master-top.jpg",
-	"imagen_toro2":"img/master-back.jpg",
-	"aptosvaquillonas":"",
-	"precio":"152",
-
-	"fn":"28/10/2008",
-	"hba":"21019",
-	"senasa":"I-67B296",
-	"adn":"N136915",
-	
-
-	"pan":"32,3 KG",
-	"pad":"282 KG/108",
-	"paf":"309 KG/109",
-	"frame":"6,2",
-	"ce":"42 cm",
-	"peso":"974 KG",
-	"descripcion1":"DESTACADA CALIDAD BRAHAM, CON LÍNEAS SUPERIOR E INFERIOR MUY PROLIJAS, BUENA PIGMENTACIÓN Y ÁNGULO DE PREPUCIO",
-	"descripcion2":"MARCADO LIDERAZGO GENÉTICO PARA PESO AL DESTETE, PESO FINAL, ÁREA DE OJO DE BIFE",
-	"descripcion3":"MUY ÚTIL PARA LA RAZA POR SU PEDIGREE ABIERTO, SIENDO SU USO ADEMÁS RECOMENDADO EN CRUZAMIENTOS, APORTANDO PRECOCIDAD Y TAMAÑO MODERADO."
-
-		,"ranking":0
-},
 
 {
 	"id": 83,
@@ -2888,32 +2859,5 @@
 	"descripcion3":"Muy útil para la raza por su pedigree abierto, siendo su uso además recomendado en cruzamientos, aportando precocidad y tamaño moderado."
 
 		,"ranking":0
-},
-
-{
-	"id": 91,
-	"nombre_toro":"Mr V8 259/7",
-	"nombre_raza":"brahman",
-	"nombre_raza_cat":"Brahman",
-	"destacado":0,
-	"imagen_toro":"img/mrv8-top.jpg",
-	"imagen_toro2":"img/mrv8-back.jpg",
-	"aptosvaquillonas":"",
-	"precio":0,
-    "semen":"IMPORTADO",
-    "tatuaje":"259/7",
-    "registro":"907983",
-	"fn":"01/11/2014",
-	"hba":"21019",
-	"pan":"30 kg",
-	"pad":"262 kg",
-	"paf":"496 kg",
-	"frame":"6",
-	"ce":"40 cm",
-	"peso":"S/I",
-	"descripcion1":"El toro que lo tiene todo: gran arco costal, sobresaliente prepucio y biotipo bien carnicero. Siendo el toro de mayores ventas 2015 de V8 Ranch.",
-	"descripcion2":"Se encuentra en el 5% inferior para el peso al nacer y en el 10% superior para el peso al destete, circunferencia escrotal, área de ojo de bife y en el 2% para marmoreo.",
-	"descripcion3":"Estamos en presencia de un gran padre, dada su excelente curva de crecimiento, líneas, pedigree y cualidades carniceras"
-
-	,"ranking":0
-}  ]
+}
+  ]
