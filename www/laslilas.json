@@ -25,31 +25,9 @@
 
 			,
 		"ranking": 1
-	}, {
-		"id": 3,
-		"nombre_toro": "Río Jordán",
-		"nombre_raza": "angus_negro",
-		"nombre_raza_cat": "Angus Negro",
-		"destacado": 0,
-		"imagen_toro": "img/Rio-jordan-top.jpg",
-		"imagen_toro2": "img/Rio-jordan-back.jpg",
-		"aptosvaquillonas": "18_meses",
-		"precio": "78",
-		"fn": "10/06/13",
-		"hba": "806347",
-		"senasa": "I-67 AA3386",
-		"adn": "N235897",
-		"pan": "37 kg",
-		"pad": "285 kg",
-		"paf": "474 kg",
-		"frame": "4,4",
-		"ce": "42 cm",
-		"peso": "950 kg",
-		"descripcion1": "Toro de gran largo, correctos aplomos y cabeza bien característica de la raza. En su pedigree combina a grandes padres, como Arafat, Zorzal, y nieto de la LL 670, una de las vacas más longevas y de gran producción del plantel de Las Lilas.",
-		"descripcion2": "Tiene bajo peso al nacer y alta aptitud materna, destacándose su sobresaliente marmoreo, cualidad muy buscada por los mercados más exigentes.",
-		"descripcion3": "Es utilizado para lograr vientres de gran fertilidad, calidad racial y longevos.",
-		"ranking": 0
-	}, {
+	},
+
+	{
 		"id": 4,
 		"nombre_toro": "Etiqueta Verde",
 		"nombre_raza": "angus_negro",
@@ -424,35 +402,6 @@
 	},
 
 
-	{
-		"id": 18,
-		"nombre_toro": "Qué Va!",
-		"nombre_raza": "angus_colorado",
-		"nombre_raza_cat": "Angus Colorado",
-		"destacado": 1,
-		"imagen_toro": "img/queva-top.jpg",
-		"imagen_toro2": "img/queva-back.jpg",
-		"aptosvaquillonas": "18_meses",
-		"precio": "115",
-
-		"fn": "27/03/14",
-		"hba": "812082",
-		"senasa": "E/T",
-		"adn": "N244218",
-
-		"pan": "35 kg",
-		"pad": "354 kg",
-		"paf": "475 kg",
-		"frame": "4,3",
-		"ce": "42 cm",
-		"peso": "890 kg",
-		"descripcion1": "Con un potencial genético poco común, al combinar sobresalientes DEPs, biotipo muy atractivo y pedigree de excepción, contiene a dos de las mejores vacas del plantel de Las Lilas, como la 2022 y la 1222, por el gran productor de padres Quebrantao.",
-		"descripcion2": "Sus DEPs combinan un moderado peso al nacer con muy buen peso al destete, aptitud materna y área de ojo de bife, con un extraordinario peso final en un frame 4,3",
-		"descripcion3": "Sus primeras crías nos indican que será un gran padre de la raza."
-
-			,
-		"ranking": 1
-	},
 
 	{
 		"id": 19,
@@ -724,36 +673,6 @@
 		"descripcion1": "Líneas de sangre productivas que se conjugan en este padre de marcada precocidad, con buen arco y profundidad de costillas y notables rasgos de facilidad de engorde.",
 		"descripcion2": "Gran herramienta mejoradora; moderado peso al nacer, buena carga genética en aptitud materna y sobresaliente circunferencia escrotal adulta de 44 centímetros.",
 		"descripcion3": "Recomendado para nivelar tamaño, mejorando precocidad y conformación carnicera."
-
-			,
-		"ranking": 0
-	},
-
-	{
-		"id": 29,
-		"nombre_toro": "A Punto!",
-		"nombre_raza": "polled_hereford",
-		"nombre_raza_cat": "Polled Hereford",
-		"destacado": 1,
-		"imagen_toro": "img/apunto-top.jpg",
-		"imagen_toro2": "img/apuntoback.jpg",
-		"aptosvaquillonas": "15_meses",
-		"precio": "140",
-
-		"fn": "23/04/04",
-		"hba": "X409059",
-		"senasa": "I-67PH1327",
-		"adn": "N0093738",
-
-		"pan": "37,6 kg",
-		"pad": "276 kg / 110",
-		"paf": "508 kg / 110",
-		"frame": "4,4",
-		"ce": "40 cm",
-		"peso": "900 kg",
-		"descripcion1": "Precocidad, calidad racial, sólido color y pigmentación completa.",
-		"descripcion2": "Balanceado crecimiento, con buenos pesos al destete y final, junto a una sobresaliente área de ojo de bife como indicador de desarrollo muscular precoz.",
-		"descripcion3": "De gran utilidad para estabilizar tamaño, junto a las buenas masas musculares que acompañan su precocidad genética."
 
 			,
 		"ranking": 0
@@ -2395,8 +2314,9 @@
 
 			,
 		"ranking": 0
-	},
+	}
 
+	,
 
 	{
 		"id": 114,
@@ -2503,7 +2423,7 @@
 		"imagen_toro": "img/fiesta-top.jpg",
 		"imagen_toro2": "img/fiesta-back.jpg",
 		"aptosvaquillonas": "18_meses",
-		"precio": "143",
+		"precio": "199",
 
 		"fn": "22/03/2014",
 		"hba": "X429565",
