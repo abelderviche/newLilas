@@ -33,8 +33,8 @@
 		"nombre_raza": "angus_negro",
 		"nombre_raza_cat": "Angus Negro",
 		"destacado": 1,
-		"imagen_toro": "img/etiqueta-verde-top.jpg",
-		"imagen_toro2": "img/etiqueta-verde-back.jpg",
+		"imagen_toro": "img/Etiqueta-verde-top.jpg",
+		"imagen_toro2": "img/Etiqueta-verde-back.jpg",
 		"aptosvaquillonas": "18_meses",
 		"precio": 0,
 
@@ -125,8 +125,8 @@
 		"nombre_raza": "angus_negro",
 		"nombre_raza_cat": "Angus Negro",
 		"destacado": 0,
-		"imagen_toro": "img/apostado-top.jpg",
-		"imagen_toro2": "img/apostado-back.jpg",
+		"imagen_toro": "img/Apostado-top.jpg",
+		"imagen_toro2": "img/Apostado-back.jpg",
 		"aptosvaquillonas": "15_meses",
 		"precio": 0,
 
